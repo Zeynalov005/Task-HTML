@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+</head>
+<body>
+
+    <h1>Register</h1>
+
+    <form>
+
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="surname">Soyadınız:</label>
+        <input type="text" id="surname" name="surname">
+
+        <br><br>
+
+        <p>Cinsiyyət:</p>
+        <input type="radio" id="male" name="gender" value="kisi">
+        <label for="male">Kişi</label>
+
+        <input type="radio" id="female" name="gender" value="qadin">
+        <label for="female">Qadın</label>
+
+        <br><br>
+
+        <label for="date">Doğum gününüzü qeyd edin:</label>
+        <input type="date" id="date" name="date">
+
+        <br><br>
+
+        <label for="age">Yaşınızı qeyd edin:</label>
+        <input type="number" id="age" name="age">
+
+        <br><br>
+
+        <p>Hansı dilləri bilirsiniz?</p>
+
+        <input type="checkbox" id="eng" name="lang" value="english">
+        <label for="eng">İngilis dili</label>
+
+        <input type="checkbox" id="fr" name="lang" value="french">
+        <label for="fr">Fransız dili</label>
+
+        <input type="checkbox" id="de" name="lang" value="german">
+        <label for="de">Alman dili</label>
+
+        <br><br>
+
+        <label for="field">Müraciət etmək istədiyiniz sahəni seçin:</label>
+        <select id="field" name="field">
+            <option>Frontend Development</option>
+            <option>Backend Development</option>
+            <option>UI/UX Design</option>
+        </select>
+
+        <br><br>
+
+        <label for="file">Şəkilinizi əlavə edin:</label>
+        <input type="file" id="file" name="file">
+
+        <br><br>
+
+        <label for="time">Sizinlə meet olunmasını istədiyiniz saatı seçin:</label>
+        <input type="time" id="time" name="time">
+
+        <br><br>
+
+        <label for="color">Sevdiyiniz rəng hansıdır?</label>
+        <input type="color" id="color" name="color">
+
+        <br><br>
+
+        <p>Özünüz haqqında ətraflı məlumat yazın:</p>
+        <textarea rows="5" cols="50" placeholder="Message"></textarea>
+
+        <br><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Göndər</button>
+
+    </form>
+
+</body>
+</html>
